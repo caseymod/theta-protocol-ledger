@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:kinetic
 
 COPY ./build/linux/ /bin/
 
