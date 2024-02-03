@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.22rc2-bookworm
 ENV GOPATH=/app
 ENV PATH=$GOPATH/bin:$PATH
 WORKDIR /app/src/github.com/thetatoken/theta
