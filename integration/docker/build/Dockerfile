@@ -1,4 +1,4 @@
-FROM golang:1.11
+FROM golang:1.24.0
 
 VOLUME ["/go"]
 
